@@ -23,7 +23,7 @@ DermaButton:SetText( "연합벤 홈페이지" )
 DermaButton:SetPos( 25, 100 )
 DermaButton:SetSize( 250, 30 )
 DermaButton.DoClick = function()	
-	gui.OpenURL( "https://lill74.github.io/Garrys-mod-Ali-Bans/" )
+	gui.OpenURL( "https://goo.gl/opVL5a" )
 end
 
 local TextEntry = vgui.Create( "DTextEntry", Frame ) -- create the form as a child of frame
