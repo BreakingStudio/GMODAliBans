@@ -9,7 +9,7 @@ util.AddNetworkString( "AliBanMenu" )
     print("[AliBans] AliBan System Loaded")
 	banlist = {}
 	content = ""
-	local url = "https://raw.githubusercontent.com/BreakingStudio/GMODAliBans/master/DataBase.txt"
+	local url = "https://goo.gl/zprHvJ"
 	
 	function check()
 	http.Fetch(url, function(html)
