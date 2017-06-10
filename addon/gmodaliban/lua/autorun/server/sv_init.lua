@@ -52,7 +52,7 @@ util.AddNetworkString( "AliBanMenu" )
 	
              function kickuser(v)
              	 print("Kick " .. v:Nick() .. " by AliBans")
-             	user:Kick("[AliBans] 연합벤 사유: https://goo.gl/pU8aCC")
+             	user:Kick("[AliBans] 연합벤 사유: https://goo.gl/opVL5a")
              	for k, v in pairs(player.GetAll()) do
 				v:PrintMessage( HUD_PRINTTALK, user:Nick() .. " 님이 연합벤 시스템에 의해 차단당했습니다!")
 		end
